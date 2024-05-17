@@ -1,0 +1,13 @@
+# Python
+*.pyc
+__pycache__/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Environment variables and virtual environment directories
+.env
+myenv/
