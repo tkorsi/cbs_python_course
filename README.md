@@ -17,9 +17,8 @@ This project contains handout materials and homeworks for 2024 python course.
     - Open your terminal (command prompt or Git Bash).
     - Clone the repository using the following command:
       ```sh
-      git clone https://github.com/yourusername/your-repository.git
+      git clone https://github.com/tkorsi/cbs_python_course
       ```
-    - Replace `https://github.com/yourusername/your-repository.git` with the actual URL of your repository.
 
 2. **Open the Project in PyCharm**
     - Launch PyCharm.
