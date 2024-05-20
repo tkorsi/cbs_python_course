@@ -15,6 +15,7 @@ def ctr(clicks: int, shows: int) -> float:
              If there are no shows, return 0.0
              If clicks greater then shows, return 1
     """
+    return clicks // shows if shows > 0 else 0
 
 
 def ctr_correct_implementation(clicks: int, shows: int) -> float:
