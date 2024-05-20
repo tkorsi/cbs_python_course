@@ -1,0 +1,5 @@
+[project]
+name = "testlib"
+readme = "README.md"
+version = "0.0.3"
+description = "Micro lib useful for checking students solutions"

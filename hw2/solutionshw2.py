@@ -111,10 +111,12 @@ def calculate_travel_time():
     Розраховує час, за який транспортний засіб доїде з пункту А в пункт В.
     Відстань від А до В = 700 км, швидкість автомобіля = 90 км/год.
     Використовується формула: Час = відстань / швидкість.
+
     """
+    v, l = input().split()
     # Define the distance and speed
-    length = 700  # відстань в кілометрах
-    velocity = 90  # швидкість в кілометрах на годину
+    length = int(v)  # відстань в кілометрах
+    velocity = int(l)  # швидкість в кілометрах на годину
 
     # Calculate the driving time
     driving_time = length / velocity  # час в годинах
@@ -139,4 +141,4 @@ def print_user_info():
 
 
 if __name__ == '__main__':
-    print_words_with_comma()
+    calculate_travel_time()

@@ -46,6 +46,7 @@ This project contains handout materials and homeworks for 2024 python course.
     - If your project has a `requirements.txt` file, install the dependencies:
       ```sh
       pip install -r requirements.txt
+      pip install --upgrade --editable tools/testlib
       ```
 
 5. **Run the Project**

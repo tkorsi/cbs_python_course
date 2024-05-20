@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: testlib
+Version: 0.0.3
+Summary: Micro lib useful for checking students solutions
+Description-Content-Type: text/markdown
+
+## Testlib
+
+Це невелика бібліотечка для полегшення тестування завдань.
+Відповідає за речі найчастіше штучні у промисловому тестуванні, такі як:
+   * Аналіз використання модулів
+   * Аналіз байткоду
+   * Явна перевірка наявності докстрінгу
+
+
+### Installation
+
+``` bash
+pip install --editable tools/testlib
+````
+
+
+### Structure
+
+* `docs` - докстрінги
+* `functions` - функції, розкладання їх на байткод
+* `memory` - memory тести
+* `modules` - імпорти і тд
+
+[comment]: <> (```)testlib
